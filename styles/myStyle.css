@@ -1,0 +1,268 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: Arial, "Free Sans";
+}
+
+/* User Css */
+body.user-body{
+	width: 520px;
+}
+/* User Common */
+div#top p.title{
+	margin: 0px;
+	background: #3e5ea2;
+	color: #fff;
+	font-size: 22px;
+	padding:12px;
+}
+
+span.button{	
+	margin: 10px;
+}
+.button {
+    
+    height:auto;
+    font:76%/150% "Lucida Grande", Geneva, 
+    Verdana, Arial, Helvetica, sans-serif;
+    width:1em;
+    text-align:center;
+    white-space:nowrap;
+}
+.button a:link, .button a:visited {
+    color: #000;
+    background-color:#ffffff;
+    font-size:1em;
+    font-weight:bolder;
+    text-decoration: none;
+    border-bottom:0.1em solid #555;
+    border-right:0.1em solid #555;
+    border-top:0.1em solid #ccc;
+    border-left:0.1em solid #ccc;
+    margin: 0.2em;
+    padding:0.5em;
+    
+}
+.button a:hover {
+    background-color:#003366;
+    color:#999;
+    border-top:0.1em solid #777;
+    border-left:0.1em solid #777;
+    border-bottom:0.1em solid #aaa;
+    border-right:0.1em solid #aaa;
+    padding:0.5em;
+    margin: 0.2em;
+}
+
+/* Main */
+p.game-title{	
+	
+}
+p.game-detail{
+	color: #52aaed;
+	font-size: 15px;
+}
+
+div.main_bottom{	
+	text-align: center;
+	margin: auto;
+	margin-top: 15px;	
+}
+div#main-body img{
+	width : 100%;
+}
+
+/* Ranking */
+
+div.ranking-top{
+	margin-top: 10px;
+}
+
+p.ranking-title{
+	/*align: right;*/
+	margin-left: 100px;
+	display : inline;
+}
+
+table#user-ranking{
+	margin-top: 10px;
+	width: 500px;
+}
+
+div.ranking-bottom{	
+	text-align: center;
+	margin: auto;
+	margin-top: 15px;	
+}
+
+/* Ranking end */
+div.rankingend-body{
+	margin:auto;
+	text-align: center;
+	align: center;
+	margin-left: 130px;
+}
+
+
+
+
+
+
+
+/* top menu */
+
+ul#menu { width: 100%; height: 43px; background: #FFF url("images/menu-bg.gif") top left repeat-x; font-size: 0.8em; font-family: "Lucida Grande", Verdana, sans-serif; font-weight: bold; list-style-type: none; margin: 0; padding: 0; }
+ul#menu li { display: block; float: left; margin: 0 0 0 5px; }
+ul#menu li a { height: 43px; color: #777; text-decoration: none; display: block; float: left; line-height: 200%; padding: 8px 15px 0; }
+ul#menu li a:hover { color: #333; }
+ul#menu li a.current{ color: #FFF; background: #FFF url("images/current-bg.gif") top left repeat-x; padding: 5px 15px 0; }
+
+
+/* Common table */
+
+table{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;	
+	text-align: center;
+	border-collapse: collapse;	
+}
+
+
+thead {
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+tr {
+display: table-row;
+vertical-align: inherit;
+border-color: inherit;
+}
+th {
+background: #f3f3f4;
+font-size: 14px;
+font-weight: normal;
+color: #039;
+padding: 10px 8px;
+}
+tbody {
+display: table-row-group;
+vertical-align: middle;
+border-color: inherit;
+}
+.odd {
+background: #E8EDFF;
+}
+tr {
+display: table-row;
+vertical-align: inherit;
+border-color: inherit;
+}
+td {
+color: #669;
+padding: 8px;
+}
+
+/* created game */
+form {
+display: block;
+
+}
+fieldset {
+margin: 1em 0;
+border: none;
+border-top: 1px solid #CCC;
+}
+fieldset {
+display: block;
+-webkit-margin-start: 2px;
+-webkit-margin-end: 2px;
+-webkit-padding-before: 0.35em;
+-webkit-padding-start: 0.75em;
+-webkit-padding-end: 0.75em;
+-webkit-padding-after: 0.625em;
+border: 2px groove threedface;
+}
+legend {
+margin: 1em 0;
+padding: 0 .5em;
+color: #036;
+background: transparent;
+font-size: 1.3em;
+font-weight: bold;
+}
+fieldset div.fm-req {
+font-weight: bold;
+}
+fieldset div.fm-req label::before {
+content: "* ";
+}
+
+fieldset div {
+margin-bottom: .5em;
+padding: 0;
+display: block;
+}
+
+label {
+float: left;
+width: 100px;
+padding: 0 1em;
+text-align: right;
+}
+fieldset div input, fieldset div textarea, fieldset div select{
+width: 500px;
+border-top: 1px solid #555;
+border-left: 1px solid #555;
+border-bottom: 1px solid #CCC;
+border-right: 1px solid #CCC;
+padding: 1px;
+color: #333;
+}
+#fm-submit {
+	clear: both;
+	padding-top: 1em;
+	text-align: center;
+}
+#fm-submit input {
+border: 1px solid #333;
+padding: 2px 1em;
+background: #555;
+color: white;
+font-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

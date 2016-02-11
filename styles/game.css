@@ -1,0 +1,65 @@
+
+
+#boxcard {
+	margin: 0 auto;
+	width: 100%;
+	z-index: 1;
+}
+
+#boxcard div {
+	float: left;	
+	background: #d9d9d9;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #999;
+	cursor: pointer;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+	z-index: 2;
+}
+
+#boxcard div img {
+	border: none;	
+	z-index: 3;
+}
+
+.opacity {
+	opacity: .6;
+	filter: alpha(opacity = 60);
+}
+
+#boxbutton {
+	text-align: center;
+	padding: 20px;
+}
+#boxbutton span.button{
+	float:left;
+	margin-left:-10px;
+	margin-top:3px;
+	z-index: 7;
+}
+#boxbutton span#sound{
+	float:left;
+	margin-left:-5000px;
+	margin-top:3px;
+	z-index: 3;
+}
+
+.link {
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	background: #0066cc;
+	padding: 5px 10px;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
+.link:hover {
+	background: #999;
+}
